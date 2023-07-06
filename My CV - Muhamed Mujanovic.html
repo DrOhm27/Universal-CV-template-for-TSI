@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+
+<title>Ohm's CV form</title>
+
+
+<html>
+<body>
+
+    <!--h1 block -->
+    <h1 align="center">Personal information:</h1>
+
+    <!--style block-->
+    <style>
+        .center-element {
+            margin: 0 auto;
+        }
+
+        .center-checkbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Comic Sans MS';
+        }
+
+        table {
+            font-family: 'Comic Sans MS';
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid blue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .highlight {
+            background-color: dodgerblue;
+        }
+
+        .highlight2 {
+            background-color: lightskyblue;
+        }
+
+        body {
+            background-image: url("https://free4kwallpapers.com/uploads/originals/2020/10/02/tessellation-in-turquoise-wallpaper.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        
+
+        .center-text-h2 {
+            position: relative;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Comic Sans MS';
+        }
+
+        .checkbox-image {
+            margin-right: 8px;
+        }
+
+        h1 {
+            font-family: 'Comic Sans MS';
+        }
+
+        h2 {
+            font-family: 'Comic Sans MS';
+        }
+
+        .radio-container {
+            text-align:center;
+        }
+
+            .radio-container label {
+                display: block;
+                margin-bottom: 10px;
+                font-size: 24px;
+                font-family: 'Comic Sans MS';
+            }
+
+        .button-size {
+        height: 50px;
+        width: 60%;
+        }    
+        
+
+    </style>
+
+
+    <!--table block-->
+    <table border="1" class="center-element">
+
+        <tr>
+            <td class="highlight">Name:</td.highlight>
+            <td class="highlight2"><input id="Text1" type="text" /></td>
+        </tr>
+
+        <tr>
+            <td class="highlight">Surname:</td>
+            <td class="highlight2"><input id="Text1" type="text" /></td>
+        </tr>
+
+        <tr>
+            <td class="highlight">Date of birth:</td>
+            <td class="highlight2"><input type="date" id="datepicker1" name="date_picker_1" /></td>
+        </tr>
+
+        <tr>
+            <td class="highlight">Place of living:</td>
+            <td class="highlight2"><input id="Text1" type="text" /></td>
+        </tr>
+
+        <tr>
+            <td class="highlight">Qualification:</td>
+            <td class="highlight2">
+                <select>
+                    <option value="option1">Elementary school</option>
+                    <option value="option2">Primary school</option>
+                    <option value="option3">High school</option>
+                    <option value="option4">Bachelor's degree</option>
+                    <option value="option5">University diploma</option>
+                    <option value="option6">Masters degree</option>
+                    <option value="option7">Doctorate</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="highlight">Country of birth:</td>
+            <td class="highlight2"><input id="Text1" type="text" /></td>
+        </tr>
+
+        <tr>
+            <td class="highlight">City of birth:</td>
+            <td class="highlight2"><input id="Text1" type="text" /></td>
+        </tr>
+
+    </table>
+
+
+    <!--h2 block-->
+    <h2 align="center">Skills selection:</h2>
+
+    <!--Question 1-->
+    <p class="center-text-h2">Any programming languages you know?</p>
+
+    <!--checkbox block-->
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/F_Sharp_logo.svg/1200px-F_Sharp_logo.svg.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://db.cs.uni-tuebingen.de/teaching/ws2223/sql-is-a-programming-language/logo.svg" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="50" height="50" />
+    </div>
+
+    <div class="center-checkbox">
+        <input type="checkbox" id="checkbox1" name="check_box_1" value="checkboxValue" />
+        <label for="checkbox1" class="checkbox-image"></label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png" width="50" height="50" />
+    </div>
+
+    <!--second h2 block-->
+    <h2 align="center">Preferred region for work:</h2>
+
+    <div class="radio-container";>
+
+        <label>
+            <input type="radio" name="region" value="rob" />
+            Region of birth
+        </label>
+
+        <label>
+            <input type="radio" name="region" value="ab" />
+            Abroad
+        </label>
+
+    </div>
+
+    <!--third h2 block-->
+    <h2 align="center">Years of work experience:</h2>
+
+    <!--radio button block-->
+    <div class="radio-container";>
+
+        <label>
+            <input type="radio" name="years" value="low" />
+            5 - 10 years
+        </label>
+
+        <label>
+            <input type="radio" name="years" value="low-mid" />
+            10 - 15 years
+        </label>
+
+        <label>
+            <input type="radio" name="years" value="mid" />
+            15 - 20 years
+        </label>
+
+        <label>
+            <input type="radio" name="years" value="mid-high" />
+            20 - 25 years
+        </label>
+
+        <label>
+            <input type="radio" name="years" value="high" />
+            25 - 30 years
+        </label>
+
+    </div>
+
+    <!--fourth h2 block-->
+    <h2 align="center">Preferred work environment:</h2>
+
+    <div class="radio-container">
+
+        <label>
+            <input type="radio" name="w-environment" value="1" />
+            Work from office
+        </label>
+
+        <label>
+            <input type="radio" name="w-environment" value="2" />
+            Work from home
+        </label>
+
+    </div>
+
+    <!--fifth h2 block-->
+    <h2 align="center">Known foreign langauges:</h2>
+
+    <!--checkbox 2-->
+    <div class="center-checkbox">
+
+        <input type="checkbox" id="check_box_1" name="english">
+        <label for="check_box_1" >English</label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/640px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" height="16" width="16">
+
+    </div>
+
+    <div class="center-checkbox">
+
+        <input type="checkbox" id="check_box_2" name="german">
+        <label for="check_box_2">German</label>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png" height="16" width="16">
+
+    </div>
+
+    <div class="center-checkbox">
+
+        <input type="checkbox" id="check_box_2" name="russian>
+        <label for="check_box_2">Russian</label>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/800px-Flag_of_Russia.svg.png" height="16" width="16">
+
+    </div>
+
+    <div class="center-checkbox">
+
+        <input type="checkbox" id="check_box_2" name="spanish">
+        <label for="check_box_2">Spanish</label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/800px-Bandera_de_Espa%C3%B1a.svg.png" height="16" width="16">
+
+    </div>
+
+    <div class="center-checkbox">
+
+        <input type="checkbox" id="check_box_2" name="german">
+        <label for="check_box_2">Chinese</label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/255px-Flag_of_the_People%27s_Republic_of_China.svg.png" height="16" width="16">
+
+    </div>
+
+    <div class="center-checkbox">
+
+        <input type="checkbox" id="check_box_2" name="german">
+        <label for="check_box_2">Japanese</label>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/800px-Flag_of_Japan.svg.png" height="16" width="16">
+
+    </div>
+    
+   <div id="mytext" >
+       <script src="test.js"></script>
+   </div>
+
+    
+
+
+</body>
+</html>
